@@ -2,8 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Minimize2, Maximize2 } from "lucide-react";
-import Head from "next/head";
-
+// import Head from "next/head";
 import { Header } from "@/components/Header";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { AccessibilityMenu } from "@/components/AccessibilityMenu";
@@ -52,48 +51,6 @@ export default function GharGharGasWebsite() {
         />
       </audio>
 
-      {/* SEO Meta Tags */}
-      <Head>
-        <title key="title">
-          घर घर गैस - Ghar Ghar Gas&nbsp;| LPG EMI | New Connection | Government
-          Initiative
-        </title>
-
-        <meta
-          key="description"
-          name="description"
-          content="घर घर गैस - सरकारी पहल। LPG कनेक्शन और रिफिल अभी लें, बाद में भुगतान करें। घरेलू और व्यापारिक दोनों के लिए। No Cost EMI। Ghar Ghar Gas - Government Initiative for LPG connection and refill with EMI facility for domestic and commercial customers."
-        />
-        <meta
-          key="keywords"
-          name="keywords"
-          content="घर घर गैस, Ghar Ghar Gas, LPG EMI, गैस कनेक्शन, gas connection, commercial LPG, domestic LPG, government scheme, ujjwala yojana, cooking gas, rural development, restaurant gas, hotel LPG"
-        />
-        <meta
-          key="og:title"
-          property="og:title"
-          content="घर घर गैस - Ghar Ghar Gas | LPG Connection & EMI Facility"
-        />
-        <meta
-          key="og:description"
-          property="og:description"
-          content="Government initiative for LPG connection and refill with no-cost EMI. Serving both domestic and commercial customers. Apply now for instant approval."
-        />
-
-        {/* Google Fonts (loaded once, keys avoid duplication) */}
-        <link key="gp1" rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          key="gp2"
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          key="gp3"
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+Devanagari:wght@300;400;500;600;700;800&family=Noto+Sans+Bengali:wght@300;400;500;600;700;800&family=Noto+Sans+Tamil:wght@300;400;500;600;700;800&family=Noto+Sans+Telugu:wght@300;400;500;600;700;800&family=Noto+Sans+Arabic:wght@300;400;500;600;700;800&family=Noto+Sans+Gurmukhi:wght@300;400;500;600;700;800&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
 
       {/* Fixed UI Components */}
       <Header isScrolled={isScrolled} />
